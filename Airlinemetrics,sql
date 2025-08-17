@@ -1,0 +1,47 @@
+CREATE TABLE airline_passenger (
+    id INT,
+    Gender VARCHAR(10),
+    CustomerType VARCHAR(20),
+    Age INT,
+    TypeOfTravel VARCHAR(20),
+    Class VARCHAR(20),
+    FlightDistance INT,
+    InflightWifiService INT,
+    DepartureArrivalTimeConvenient INT,
+    EaseOfOnlineBooking INT,
+    GateLocation INT,
+    FoodAndDrink INT,
+    OnlineBoarding INT,
+    SeatComfort INT,
+    InflightEntertainment INT,
+    OnboardService INT,
+    LegRoomService INT,
+    BaggageHandling INT,
+    CheckinService INT,
+    InflightService INT,
+    Cleanliness INT,
+    DepartureDelayInMinutes FLOAT,
+    ArrivalDelayInMinutes FLOAT,
+    Satisfaction VARCHAR(50)
+);
+
+SELECT Gender, COUNT(*) AS Count FROM airline_passenger GROUP BY Gender;
+SELECT Class, Age, COUNT(*) AS Count FROM airline_passenger GROUP BY Class, Age;
+SELECT TypeOfTravel, Gender, COUNT(*) AS Count FROM airline_passenger GROUP BY TypeOfTravel, Gender;
+SELECT CustomerType, Class, COUNT(*) AS Count FROM airline_passenger GROUP BY CustomerType, Class;
+SELECT Age, CustomerType, COUNT(*) AS Count FROM airline_passenger GROUP BY Age, CustomerType;
+
+SELECT InflightWifiService, COUNT(*) AS Count FROM airline_passenger GROUP BY InflightWifiService;
+SELECT OnlineBoarding, COUNT(*) AS Count FROM airline_passenger GROUP BY OnlineBoarding;
+SELECT SeatComfort, COUNT(*) AS Count FROM airline_passenger GROUP BY SeatComfort;
+SELECT InflightEntertainment, COUNT(*) AS Count FROM airline_passenger GROUP BY InflightEntertainment;
+SELECT BaggageHandling, COUNT(*) AS Count FROM airline_passenger GROUP BY BaggageHandling;
+SELECT Cleanliness, COUNT(*) AS Count FROM airline_passenger GROUP BY Cleanliness;
+SELECT Satisfaction, COUNT(*) AS Count FROM airline_passenger GROUP BY Satisfaction;
+
+SELECT Class, CustomerType, MAX(DepartureDelayInMinutes) AS MaxDepartureDelay FROM airline_passenger GROUP BY Class, CustomerType;
+SELECT Class, CustomerType, MAX(ArrivalDelayInMinutes) AS MaxArrivalDelay FROM airline_passenger GROUP BY Class, CustomerType;
+SELECT FlightDistance, SUM(ArrivalDelayInMinutes) AS SumArrivalDelay FROM airline_passenger GROUP BY FlightDistance;
+SELECT FlightDistance, SUM(InflightService) AS SumInflightService FROM airline_passenger GROUP BY FlightDistance;
+SELECT FlightDistance, SUM(OnboardService) AS SumOnboardService FROM airline_passenger GROUP BY FlightDistance;
+SELECT FlightDistance, SUM(DepartureDelayInMinutes) AS SumDepartureDelay FROM airline_passenger GROUP BY FlightDistance;
