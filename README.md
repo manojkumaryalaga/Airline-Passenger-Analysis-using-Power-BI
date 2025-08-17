@@ -120,12 +120,12 @@ The analysis highlights both strengths (cleanliness, inclusivity, onboarding, ba
 
 Key recommendations:
 
--Enhance Wi-Fi and connectivity to match other high-rated services.
+- Enhance Wi-Fi and connectivity to match other high-rated services.
 
--Target customer dissatisfaction in the 38–42 age group.
+- Target customer dissatisfaction in the 38–42 age group.
 
--Improve loyalty strategies for older passengers.
+- Improve loyalty strategies for older passengers.
 
--Ensure consistent inflight service quality across long-haul flights.
+- Ensure consistent inflight service quality across long-haul flights.
 
 By implementing these measures, airlines can strengthen brand reputation, foster customer loyalty, and thrive in the competitive aviation industry
