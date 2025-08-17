@@ -41,19 +41,25 @@ Airline-Passenger-Experience-Analysis/
 ---
 ## How to Run
 
-1. Data Cleaning using python
-
+### 1. Data Cleaning using Python
+```bash
+python Airline_datacleaning.py
+Data Cleaning using python
 python Airline_datacleaning.py
 
  Removes null/missing values & Prepares dataset for SQL and Power BI
 
 2. Load into SQL
 
- Import cleaned CSV into MySQL/PostgreSQL & Run queries from sql/metrics.sql
+Import the cleaned CSV into MySQL or PostgreSQL.
+
+Run queries from sql/metrics.sql to generate metrics for dashboards.
 
 3. Visualization in Power BI
 
- Import cleaned dataset & Build dashboards using available metrics
+Import the cleaned dataset.
+
+Build dashboards using the metrics generated from SQL queries.
 
 ---
 
