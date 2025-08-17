@@ -27,25 +27,17 @@ Satisfaction.
 ---
 
 ## 📁 Project Structure
-Airline-Passenger-Experience-Analysis/
-***
-| 
-***
-├─ Airline_datacleaning.py        # Python script for cleaning data
-***
-| 
-***
-├─ Airlinemetrics.sql          # SQL queries for KPIs & dashboards
-***
-| 
-***
-├─ screenshots/             # Dashboard images for README reference
-***
-| 
-***
-├─ README.md
-***
 
+Airline-Passenger-Experience-Analysis/
+---
+│
+---
+├── Airline_datacleaning.py        # Python script for cleaning data
+---
+├── Airlinemetrics.sql          # SQL queries for KPIs & dashboards
+---
+└── screenshots/             # Dashboard images for README reference
+---
 ---
 ## How to Run
 
