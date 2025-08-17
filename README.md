@@ -64,7 +64,7 @@ Run queries from sql/metrics.sql to generate metrics for dashboards.
 
 ### Dashboard 1: Customer Profile Analysis
 
-![Dashboard 1 Screenshot](screenshots/picture1.jpg)
+![Dashboard 1 Screenshot](screenshots/Picture1.jpg)
 
 **Positive Insights:**
 - Equal gender distribution (50:50) shows inclusivity.
@@ -83,7 +83,7 @@ Run queries from sql/metrics.sql to generate metrics for dashboards.
 
 ### Dashboard 2: Travel Experience Rating Insights
 
-![Dashboard 2 Screenshot](picture2.jpg)
+![Dashboard 2 Screenshot](screenshots/Picture2.jpg)
 
 **Positive Insights:**
 - Onboarding, baggage handling, cleanliness, seat comfort, and inflight entertainment all received 4–5 star ratings.
@@ -100,7 +100,7 @@ Run queries from sql/metrics.sql to generate metrics for dashboards.
 
 ### Dashboard 3: Flight Performance Analysis
 
-![Dashboard 3 Screenshot](picture3.jpg)
+![Dashboard 3 Screenshot](screenshots/Picture3.jpg)
 
 **Positive Insights:**
 - Departure and arrival delays decrease as flight distance increases, showing efficiency in long-haul flights.
