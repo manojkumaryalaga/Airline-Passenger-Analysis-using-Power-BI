@@ -31,14 +31,14 @@ Airline-Passenger-Experience-Analysis/
 │   └── airline_passenger_satisfaction.csv
 │
 ├── scripts/
-│   └── clean_data.py        # Python script for cleaning data
+│   └── Airline_datacleaning.py        # Python script for cleaning data
 │
 ├── sql/
-│   └── metrics.sql          # SQL queries for KPIs & dashboards
+│   └── Airlinemetrics.sql          # SQL queries for KPIs & dashboards
 │
 ├── screenshots/             # Dashboard images for README reference
-│   └── dashboard1.png
-│   └── dashboard2.png
-│   └── dashboard3.png
+│   └── Dashboard1.png
+│   └── Dashboard2.png
+│   └── Dashboard3.png
 │
 ├── README.md
