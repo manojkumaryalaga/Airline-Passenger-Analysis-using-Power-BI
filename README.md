@@ -55,7 +55,7 @@ Run queries from sql/metrics.sql to generate metrics for dashboards.
 
 3. Visualization in Power BI
 
-Import the cleaned dataset.
+- Import the cleaned dataset.
 
 - Build dashboards using the metrics generated from SQL queries.
 
