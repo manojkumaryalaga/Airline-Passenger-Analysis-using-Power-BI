@@ -49,7 +49,7 @@ python Airline_datacleaning.py
 
 2. Load into SQL
 
-Import the cleaned CSV into MySQL or PostgreSQL.
+- Import the cleaned CSV into MySQL or PostgreSQL.
 
 Run queries from sql/metrics.sql to generate metrics for dashboards.
 
@@ -57,7 +57,7 @@ Run queries from sql/metrics.sql to generate metrics for dashboards.
 
 Import the cleaned dataset.
 
-Build dashboards using the metrics generated from SQL queries.
+- Build dashboards using the metrics generated from SQL queries.
 
 ---
 
