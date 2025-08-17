@@ -28,26 +28,19 @@ Satisfaction.
 
 ## 📁 Project Structure
 Airline-Passenger-Experience-Analysis/
-***
-│
+
 ***
 ├── data/
 ***
 │   └── airline_passenger_satisfaction.csv
 ***
-│
-***
 ├── scripts/
 ***
 │   └── Airline_datacleaning.py        # Python script for cleaning data
 ***
-│
-***
 ├── sql/
 ***
 │   └── Airlinemetrics.sql          # SQL queries for KPIs & dashboards
-***
-│
 ***
 ├── screenshots/             # Dashboard images for README reference
 ***
@@ -56,8 +49,6 @@ Airline-Passenger-Experience-Analysis/
 │   └── Dashboard2.png
 ***
 │   └── Dashboard3.png
-***
-│
 ***
 ├── README.md
 ***
