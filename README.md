@@ -45,7 +45,7 @@ Airline-Passenger-Experience-Analysis/
 ```
 python Airline_datacleaning.py
 ```
- Removes null/missing values & Prepares dataset for SQL and Power BI
+ - Removes null/missing values & Prepares dataset for SQL and Power BI
 
 2. Load into SQL
 
