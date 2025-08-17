@@ -3,9 +3,10 @@ This project analyzes customer demographics, travel experiences, and flight perf
 
 ---
 
-## Dataset
+### 📊 Dataset
 
-Source: Kaggle – Airline Passenger Satisfaction
+[Airline Passenger Satisfaction dataset on Kaggle](https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction)
+
 
 Rows: 25,977
 
