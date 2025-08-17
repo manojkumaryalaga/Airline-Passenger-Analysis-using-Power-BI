@@ -12,10 +12,8 @@ Rows: 25,977
 
 Columns include:
 
-- Passenger demographics: Gender, Age, Customer Type
-- Travel details: Class, Type of Travel, Flight Distance
-- Service ratings: Seat comfort, Cleanliness, Online boarding, Inflight service, etc.
-- Performance data: Departure Delay, Arrival Delay, Satisfaction
+- ID, Gender, Customer Type, Age, Type of Travel, Class, Flight Distance, Inflight Wi-Fi service, Departure/Arrival time convenient, Ease of Online booking, Gate location, Food and drink, Online boarding, Seat comfort, Inflight entertainment, On-board service, Leg room service, Baggage handling, Check-in service, Inflight service, Cleanliness, Departure Delay in Minutes, Arrival Delay in Minutes, 
+Satisfaction. 
 
 ---
 
