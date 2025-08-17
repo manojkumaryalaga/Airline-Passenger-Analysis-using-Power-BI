@@ -114,6 +114,16 @@ Run queries from sql/metrics.sql to generate metrics for dashboards.
 - Airlines must ensure consistent service quality across distances and streamline processes for Economy passengers.
 
 ---
+🚀 Scalability
+
+Extend analysis to real-time streaming data (Kafka, Spark)
+
+Automate ETL pipeline for live dashboards
+
+Apply ML models to predict dissatisfaction & churn
+
+---
+
 ### Conclusion
 
 The analysis highlights both strengths (cleanliness, inclusivity, onboarding, baggage handling) and challenges (Wi-Fi service, service inconsistency on long flights, punctuality issues for Economy class).
