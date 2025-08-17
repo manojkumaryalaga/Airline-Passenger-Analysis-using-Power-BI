@@ -3,7 +3,7 @@ This project analyzes customer demographics, travel experiences, and flight perf
 
 ---
 
-### 📊 Dataset
+## 📊 Dataset
 
 [Airline Passenger Satisfaction dataset on Kaggle](https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction)
 
@@ -24,21 +24,62 @@ Satisfaction.
 - Power BI: Visualization & dashboard building
 - GitHub: Version control & project showcase
 
-📁 Project Structure
+---
+
+## 📁 Project Structure
 Airline-Passenger-Experience-Analysis/
+---
 │
+---
 ├── data/
+---
 │   └── airline_passenger_satisfaction.csv
+---
 │
+---
 ├── scripts/
+---
 │   └── Airline_datacleaning.py        # Python script for cleaning data
+---
 │
+---
 ├── sql/
+---
 │   └── Airlinemetrics.sql          # SQL queries for KPIs & dashboards
+---
 │
+---
 ├── screenshots/             # Dashboard images for README reference
+---
 │   └── Dashboard1.png
+---
 │   └── Dashboard2.png
+---
 │   └── Dashboard3.png
+---
 │
+---
 ├── README.md
+---
+
+---
+## How to Run
+
+1. Data Cleaning using python
+python Airline_datacleaning.py
+
+(Removes null/missing values
+Prepares dataset for SQL and Power BI)
+
+2. Load into SQL
+
+Import cleaned CSV into MySQL/PostgreSQL
+Run queries from sql/metrics.sql
+
+3. Visualization in Power BI
+
+Import cleaned dataset
+Build dashboards using available metrics
+
+---
+
