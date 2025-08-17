@@ -24,3 +24,21 @@ Satisfaction.
 - Power BI: Visualization & dashboard building
 - GitHub: Version control & project showcase
 
+📁 Project Structure
+Airline-Passenger-Experience-Analysis/
+│
+├── data/
+│   └── airline_passenger_satisfaction.csv
+│
+├── scripts/
+│   └── clean_data.py        # Python script for cleaning data
+│
+├── sql/
+│   └── metrics.sql          # SQL queries for KPIs & dashboards
+│
+├── screenshots/             # Dashboard images for README reference
+│   └── dashboard1.png
+│   └── dashboard2.png
+│   └── dashboard3.png
+│
+├── README.md
