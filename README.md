@@ -51,7 +51,7 @@ python Airline_datacleaning.py
 
 - Import the cleaned CSV into MySQL or PostgreSQL.
 
-Run queries from sql/metrics.sql to generate metrics for dashboards.
+- Run queries from sql/metrics.sql to generate metrics for dashboards.
 
 3. Visualization in Power BI
 
