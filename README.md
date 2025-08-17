@@ -114,13 +114,13 @@ Run queries from sql/metrics.sql to generate metrics for dashboards.
 - Airlines must ensure consistent service quality across distances and streamline processes for Economy passengers.
 
 ---
-🚀 Scalability
+### 🚀 Scalability
 
-Extend analysis to real-time streaming data (Kafka, Spark)
+- Extend analysis to real-time streaming data (Kafka, Spark)
 
-Automate ETL pipeline for live dashboards
+- Automate ETL pipeline for live dashboards
 
-Apply ML models to predict dissatisfaction & churn
+- Apply ML models to predict dissatisfaction & churn
 
 ---
 
