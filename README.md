@@ -41,12 +41,10 @@ Airline-Passenger-Experience-Analysis/
 ---
 ## How to Run
 
-### 1. Data Cleaning using Python
-```bash
+1. Data Cleaning using Python
+```
 python Airline_datacleaning.py
-Data Cleaning using python
-python Airline_datacleaning.py
-
+```
  Removes null/missing values & Prepares dataset for SQL and Power BI
 
 2. Load into SQL
